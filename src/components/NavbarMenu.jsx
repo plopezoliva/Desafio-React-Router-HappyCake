@@ -7,10 +7,9 @@ const NavbarMenu = () => {
   return (
     <Navbar bg="danger" variant="dark">
       <Container className="justify-content-start">
-        <Link as={Link} to="/" className="text-white ms-3 text-decoration-none">
+        <Link to="/" className="text-white ms-3 text-decoration-none">
           🏠Home</Link>
         <Link
-          as={Link}
           to="/contacto"
           className="text-white ms-3 text-decoration-none"
         >📒Contacto</Link>

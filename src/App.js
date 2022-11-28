@@ -11,15 +11,15 @@ import NavbarMenu from './components/NavbarMenu';
 
 function App() {
   return (
+    <BrowserRouter>
     <div className="App">
-      <BrowserRouter>
       <NavbarMenu/>
     <Routes>
       <Route path="/" element={<Home />}/>          
       <Route path="/contacto" element={<Contact/>}/>
     </Routes>
-  </BrowserRouter>,
-     </div>
+       </div>
+       </BrowserRouter>
   );
 }
 
